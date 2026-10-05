@@ -85,6 +85,6 @@ app.use((err, req, res, next) => {
 app.listen(PORT, () => {
   console.log(`===========================================`)
   console.log(`  ${BRANDING.name} v${BRANDING.version}  →  http://localhost:${PORT}`)
-  console.log(`  Database       →  PostgreSQL (${process.env.DATABASE_URL || 'postgresql://localhost/elyra_db'})`)
+  console.log(`  Database       →  PostgreSQL (${process.env.DB_SSL === 'true' ? 'Supabase' : 'local'})`)
   console.log(`===========================================`)
 })

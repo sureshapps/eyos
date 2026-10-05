@@ -107,7 +107,7 @@ async function issueRefreshToken(res, userId, familyId) {
   res.cookie(REFRESH_COOKIE, raw, {
     httpOnly: true,          // not accessible via JS
     sameSite: 'lax',         // blocked on cross-site POST
-    secure:   isProd,        // HTTPS only in production
+    secure:   process.env.COOKIE_SECURE ? process.env.COOKIE_SECURE === 'true' : isProd,        // HTTPS only in production
     maxAge:   REFRESH_TTL_MS,
     path:     '/api/auth',   // cookie only sent to /api/auth/* routes
   })

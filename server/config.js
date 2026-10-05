@@ -47,6 +47,7 @@ export const DB = {
   idleTimeoutMillis:    parseInt(process.env.DB_IDLE_MS    || "30000", 10),
   /** Ms before a connection attempt times out */
   connectionTimeoutMillis: parseInt(process.env.DB_CONN_MS || "5000", 10),
+  ssl: process.env.DB_SSL === 'true' ? { rejectUnauthorized: false } : undefined,
 }
 
 // ── Authentication ────────────────────────────────────────────────────────────

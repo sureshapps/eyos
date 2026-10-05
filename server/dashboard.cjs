@@ -50,7 +50,7 @@ const SEP_WIDE   = '  ' + '─'.repeat(85)
 const SEP_NARROW = '  ' + '─'.repeat(50)
 
 ;(async () => {
-  const client = new Client({ connectionString: DB_URL })
+  const client = new Client({ connectionString: DB_URL, ssl: env.DB_SSL === 'true' ? { rejectUnauthorized: false } : undefined })
   try {
     await client.connect()
   } catch (e) {

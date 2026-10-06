@@ -719,9 +719,9 @@ export default function Settings({ context }) {
             <div className="rounded-2xl p-6 text-center" style={{ background: "rgba(130,80,255,0.12)", border: "1px solid rgba(130,80,255,0.3)" }}>
               <div className="text-5xl mb-3">{BRANDING.logoEmoji}</div>
               <div className="text-2xl font-bold mb-1">{BRANDING.name}</div>
-              <div className="text-white/50 text-sm mb-4">Version {BRANDING.version} · Web-based OS</div>
+              <div className="text-white/50 text-sm mb-4">Version {BRANDING.version} · Evolutionary Operating System</div>
               <div className="text-xs text-white/30">Built with React · Vite · Framer Motion · Zustand</div>
-              <div className="text-xs text-white/30">Built with ❤️ by X-FRST</div>
+              <div className="text-xs text-white/30">Built with ❤️ by Suresh Kaleyannan</div>
               <div className="text-xs text-white/30">Support: <a href={`mailto:${BRANDING.supportUrl}`} className="underline">{BRANDING.supportUrl}</a></div>
             </div>
           </div>

@@ -16,12 +16,4 @@
 
 <table width="100%">
   <tr>
-    <td width="50%"><img src="public/screenshots/1.png" alt="Screenshot 1" width="100%" style="border-radius:8px"/></td>
-    <td width="50%"><img src="public/screenshots/2.png" alt="Screenshot 2" width="100%" style="border-radius:8px"/></td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="public/screenshots/3.png" alt="Screenshot 3" width="100%" style="border-radius:8px"/></td>
-    <td width="50%"><img src="public/screenshots/4.png" alt="Screenshot 4" width="100%" style="border-radius:8px"/></td>
-  </tr>
-</table>
 

@@ -215,7 +215,7 @@ export default function LoginScreen() {
             transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
             className="mb-3 inline-block" role="img" aria-label={BRANDING.name}>
             {BRANDING.logoUrl
-              ? <img src={BRANDING.transparentLogoUrl} alt={BRANDING.name} className="w-34 h-34 object-contain" />
+              ? <img src={BRANDING.transparentLogoUrl} alt={BRANDING.name} className="w-28 h-28 object-contain" />
               : <span className="text-5xl">{BRANDING.logoEmoji}</span>}
           </motion.div>
           <div className="text-[22px] font-bold text-white tracking-tight mb-1">{BRANDING.name}</div>

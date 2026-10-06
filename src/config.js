@@ -1,5 +1,5 @@
 /**
- * Elyra — Client Configuration
+ * EyOS™ — Client Configuration
  * ─────────────────────────────
  * All branding, appearance, and client-side defaults live here.
  * Edit this file to rebrand or tune the experience without touching
@@ -9,15 +9,15 @@
 // ── Branding ──────────────────────────────────────────────────────────────────
 export const BRANDING = {
   /** Short name shown in the title bar, dock tooltips, and login screen */
-  name: "Elyra",
+  name: "EyOS™",
   /** Full product name (used in About screens) */
-  fullName: "Elyra Operating System",
+  fullName: "Evolutionary Operating System",
   /** Shown in the browser tab <title> */
-  pageTitle: "Elyra",
+  pageTitle: "EyOS™",
   /** Version string shown in Settings → About */
   version: "1.0",
   /** Website or repo URL (used in Settings → About) */
-  website: "https://elyraos.com",
+  website: "https://eyos.snet.my",
   /**
    * Path to your favicon inside public/.
    * Set to a file like "/favicon.ico" or "/logo.png" and Vite will serve it.
@@ -28,13 +28,13 @@ export const BRANDING = {
    * Path to a logo image shown on the login screen and About panel.
    * Leave empty to use the text-based logo fallback.
    */
-  logoUrl: "/elyra_icon.png",
+  logoUrl: "/eyos_icon.png",
   /** Fallback emoji / text logo when no logoUrl is set */
-  logoEmoji: "🌌",
+  logoEmoji: "🧬",
   /** Transparent logo */
-  transparentLogoUrl: "/elyra_icon_transparent.png",
+  transparentLogoUrl: "/eyos_icon_transparent.png",
   /** Support URL */
-  supportUrl: "support@elyraos.com",
+  supportUrl: "hello@suresh.app",
 }
 
 // ── Accent colours ────────────────────────────────────────────────────────────

@@ -14,6 +14,6 @@
   camera, video player, and more — all running in the browser, backed by a real database and per-user file storage.
 </p>
 
-<table width="100%">
+
   <tr>
 

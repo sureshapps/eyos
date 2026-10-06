@@ -9,11 +9,11 @@
 // ── Branding ──────────────────────────────────────────────────────────────────
 export const BRANDING = {
   /** Short name shown in the title bar, dock tooltips, and login screen */
-  name: "EyOS™",
+  name: "EYOS",
   /** Full product name (used in About screens) */
   fullName: "Evolutionary Operating System",
   /** Shown in the browser tab <title> */
-  pageTitle: "EyOS™",
+  pageTitle: "EYOS",
   /** Version string shown in Settings → About */
   version: "1.0",
   /** Website or repo URL (used in Settings → About) */

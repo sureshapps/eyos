@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="public/F60527E6-163C-4983-A30A-2D8711C3602D.png" alt="Elyra — Browser Desktop OS" width="100%"/>
+  <img src="public/0913BC6C-402C-4DBA-BE17-C782483A7D76.png" alt="Elyra — Browser Desktop OS" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="public/0913BC6C-402C-4DBA-BE17-C782483A7D76.png" alt="Elyra" width="80"/>
+  <img src="public/F60527E6-163C-4983-A30A-2D8711C3602D.png" alt="Elyra" width="80"/>
 </p>
 
 <h1 align="center">ElyraOS</h1>
